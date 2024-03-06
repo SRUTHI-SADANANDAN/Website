@@ -1,0 +1,39 @@
+.office{
+    padding: 20px;
+    margin-left: 300px;
+    font-size: 23px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    letter-spacing: 0.8px;
+    line-height: 32px;
+}
+.para2{
+    margin-left: 320px;
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.line2{
+    margin-left: 200px;
+   width: 900px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (min-width:601px) {
+    .para2{
+        display: flex;
+        justify-content: left;
+        /* font-size: 30px; */
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .para2{
+        display: flex;
+        justify-content: left;
+        font-size: 25px;
+    }
+}
